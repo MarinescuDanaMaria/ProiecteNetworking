@@ -1,0 +1,8 @@
+2023 : Linux Menu for Managing an Insurance Car Company 
+
+    - Develops a suite of Bash scripts to manage CSV data structures stored in separate files, ensuring the ability to create, expand, and update records.
+    - Implements a feature to automatically generate unique IDs for new records, ensuring seamless integration with existing data.
+    - Enhances data extraction capabilities by incorporating sorting and limiting functionalities, facilitating precise retrieval based on specified criteria.
+   - Implements an update mechanism enabling modifications to specific records starting from their respective IDs, without affecting other entries.
+   - Designs a user-friendly menu system to facilitate seamless navigation and execution of various functionalities, enhancing user experience and operational efficiency.
+
