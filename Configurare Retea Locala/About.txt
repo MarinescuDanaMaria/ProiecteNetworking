@@ -1,1 +1,50 @@
+Configurarea unei rețele pentru o afacere locală
+
+PAȘI
+
+- Două rețele LAN pentru departamente diferite, conectate printr-un router, folosind switch-uri și un VLAN pentru fiecare departament.
+
+1) Planificarea rețelei
+
+Două departamente: IT și Contabilitate.
+Fiecare departament are câte 5 dispozitive (PC-uri).
+Routerul conectează rețeaua locală la Internet.
+Securitatea traficului între departamente va fi realizată prin VLAN-uri.
+
+Topologia fizică:
+Un router conectat la un switch central.
+Switch-ul central este împărțit în două VLAN-uri.
+Departamentele folosesc IP-uri din subrețele diferite.
+
+Adrese IP:
+IT (VLAN 10): 192.168.1.0/24
+Contabilitate (VLAN 20): 192.168.2.0/24
+Gateway (Router): 192.168.1.1 și 192.168.2.1
+
+2) Configurarea echipamentelor de rețea prin CLI , asignarea porturilor 
+
+3) Configurarea PC-urilor
+
+Configurează manual IP-urile pentru fiecare PC:
+
+În rețeaua IT:
+IP: 192.168.1.x
+Subnet Mask: 255.255.255.0
+Gateway: 192.168.1.1
+În rețeaua Contabilitate:
+IP: 192.168.2.x
+Subnet Mask: 255.255.255.0
+Gateway: 192.168.2.1
+
+6) Verificare și testare
+
+- Testăm conectivitatea între PC-uri din același VLAN cu comanda ping.
+
+Ping între dispozitive din același VLAN:
+PC din IT → Alt PC din IT.
+PC din Contabilitate → Alt PC din Contabilitate.
+Ping între VLAN-uri (rutare inter-VLAN):
+PC din IT → PC din Contabilitate.
+
+7) Documentare
 
