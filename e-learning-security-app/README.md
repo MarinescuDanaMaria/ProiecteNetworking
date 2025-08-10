@@ -1,4 +1,17 @@
-pentru a rula proiectul, ai nevoie de :
+E-Learning Security App 
+A comprehensive mobile application built with React Native and Expo that provides interactive cybersecurity education through structured courses, practice exercises, and AI-powered learning tools. 
+ 
+Technologies: JavaScript, React Native, Expo, Firebase, OpenAI API 
+
+Key Features: 
+Cross-platform mobile app (iOS/Android)
+Structured cybersecurity courses with chapters and subsections
+Interactive learning tools (flashcards, quizzes, practice exercises) 
+AI-powered virtual tutor for personalized explanations 
+Progress tracking and achievement badges
+Leaderboard system for competitive learning
+
+biblioteci necesare pentru a rula aplicatia: 
 
 npm install
 
